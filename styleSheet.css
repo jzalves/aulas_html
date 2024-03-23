@@ -11,25 +11,29 @@
     
 }
 .mainmenubtn:hover {
-    background-color: skyblue;
+    background-color: grey;
     
     }
 .dropdown {
     position: relative;
     display: inline-block;
     
+    
 }
 .dropdown-child {
     display: none;
-    background-color: skyblue;
+    background-color: gray;
     min-width: 160px;
     
 }
 .dropdown-child a {
-    color: blue;
+    color: black;
     padding: 20px;
     text-decoration: none;
     display: block;
+    font-style: arial
+;
+    font-size: larger;
 }
 .dropdown:hover .dropdown-child {
     display: block;
@@ -42,6 +46,9 @@ header{
     text-align: center;
     
    
+}
+body{
+    background-color: whitesmoke;
 }
 
 

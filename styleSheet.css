@@ -3,7 +3,7 @@
     color: gray;
     border: 0px;
     cursor: pointer;
-    padding:10px;
+    padding:0%;
     margin-top: 50px;
     border-radius: 50%;
 
@@ -12,6 +12,8 @@
 }
 .mainmenubtn:hover {
     background-color: grey;
+    padding: none;
+    border: none;
     
     }
 .dropdown {
@@ -27,12 +29,11 @@
     
 }
 .dropdown-child a {
-    color: black;
+
     padding: 20px;
     text-decoration: none;
     display: block;
-    font-style: arial
-;
+    font-style: arial;
     font-size: larger;
 }
 .dropdown:hover .dropdown-child {
@@ -40,16 +41,20 @@
 }
 header{
     background-color: black;
-    position: absolute;
+    position:absolute;
     width: 100%;
-    height: 20%;
+    height: 15%;
     text-align: center;
-    
-   
+
 }
-body{
-    background-color: whitesmoke;
+#background{
+    width: 100%;
+    height: 100%;
+
 }
+
+
+
 
 
 

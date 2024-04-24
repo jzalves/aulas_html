@@ -17,13 +17,29 @@
             font-size: 1 em;
             /* 1em é 16px pq é o tamanho padrao, 2 em é duas vezes isso, ou seja 32px, recomendamos sempre usar em pq trabalha com o tamanho padrao da fonte*/
 
+            font-weight: 900 ; /*peso da fonte, tipo um negrito*/
+            /*lighter normal bold boler (pesos padrão)*/
+            /*temos variações numericas de 100-900 mas a maioria das fontes não tem todas as variações*/
+
+            font-style: italic;
+
+            /* AVISO use font weight para negrito e font style para italico*/
+            text-decoration: underline;
+
 
         }
 
 
 
-        h1, h2{
-            font-family: 'Times New Roman', Times, serif;
+        h1{
+            
+            /*config muito usada, podemos fazer um shorthand para condensar essas configs
+            font style-font weight - font size- font family */
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+            /*4 comandos em uma unica linha*/
+        }
+        h2{
+            font: bold 2em Arial, Helvetica, sans-serif; 
         }
     </style>
 </head>

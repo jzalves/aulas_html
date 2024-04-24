@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
-        body{
+        body{/*ele sugeriu mais de uma fonte no codigo, pois alguns dispositivos podem não ter as fontes disponiveis*/
             font-family: Arial, Helvetica, sans-serif;
-        }/*ele sugeriu mais de uma fonte no codigo, pois alguns dispositivos podem não ter as fontes disponiveis*/
+            /*medidas absolutas
+            cm,mm, in, px, pt, pc*/
+
+
+
+            /*medidas relativas
+            em, ex, rem, vw, vh, %, recomendada são px e em*/
+            font-size: 1 em;
+            /* 1em é 16px pq é o tamanho padrao, 2 em é duas vezes isso, ou seja 32px, recomendamos sempre usar em pq trabalha com o tamanho padrao da fonte*/
+
+
+        }
+
+
+
         h1, h2{
             font-family: 'Times New Roman', Times, serif;
         }

@@ -53,7 +53,12 @@ header{
     height: 100%;
 
 }
-
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+}
 
 
 

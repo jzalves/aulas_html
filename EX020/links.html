@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo classe
+        :: = pseudo-element
+        > = children
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{/*link não visitado*/
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{   /*link visitado*/
+            color:red;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{/*quando clicar fica amarelo*/
+            color: yellow;
+        }
+        a::after{  /*::vai colocar conteudo na palavra, deixar algo aparecendo dps do link, no caso aqui é a palavra link*/
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+
+        }
+        .especial{
+            background-color: darkred;
+            
+        }
+        .especial::before{ /*pode mexer nos pseudo conteudos com as classes tmbm*/
+            content: "★";
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/jzalves" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank">Site do curso em vídeo</a></li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover {
+            color: red;
+
+        }
+        div:hover > p { /*selecionando o hover do paragrafo*/
+            display: block;
+            color: white;
+            background-color: blue;
+
+        }
+        div > p { /*selecionei o paragrafo dentro da div*/
+            display: none; /*indica para não mostrar nada*/
+        }
+        /*prototipo inicial de dropbox
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>texto escondido</p>
+    </div>
+    <p>Fim do exemplo</p>
+    
+</body>
+</html>

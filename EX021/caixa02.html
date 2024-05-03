@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkcyan;
+            margin: 0%;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: darkgoldenrod;
+            
+        }
+        nav>a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        nav>a:hover{
+            color: aliceblue;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+        }
+        article > aside{
+            background-color: lightgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <header> <!--cabeçalho-->
+        <h1>Meu Site</h1>
+        <nav><!--menu de navegação-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>           
+        </nav>
+
+    </header>
+    <main><!--conteúdo principal-->
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias"> <!--separado por seçôes-->
+            <article><!--Artigo da seção-->
+                <h2>noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellendus natus obcaecati sit. Quidem aspernatur quia nisi error, corrupti itaque libero iure praesentium laboriosam ipsa tempore sit earum architecto quis
+                </p>
+                <aside> <!--fica ao lado relativo a onde está inserido-->
+                    <p>artigo escrito por José Victor</p>
+
+                </aside>
+            
+            </article>
+            <h2>Artigo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque fugiat animi vel dolores error, iure assumenda consectetur incidunt! Libero ratione delectus vitae non repellat quaerat animi alias eos laboriosam.</p>
+            <article>
+                <h2>Artigo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque fugiat animi vel dolores error, iure assumenda consectetur incidunt! Libero ratione delectus vitae non repellat quaerat animi a Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis earum saepe, error architecto doloribus vel asperiores labore consequuntur quibusdam fuga nam libero hic sit quidem est doloremque recusandae a illum!lias eos laboriosam.</p>
+            
+            </article>
+
+        </section>
+    
+    </main>
+    <footer><!--rodapé-->
+        <p>Desenvolvido por José Victor Alves de Almeida</p>
+
+    </footer>
+    
+</body>
+</html>
+<!--para não usar varias DIVS no msm documento, vc pode usar as grouping tags-->

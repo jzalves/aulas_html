@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        /*fazendo borda no h1 com imagem*/
+        h1{
+            border: 20px solid black;
+            padding: 10px;
+            border-image-source: url("imagens/borda.png");/*pega a imagem e coloca como borda*/
+
+            
+            border-image-slice: 27; /*divide a imagem em varias partes*/
+            border-image-repeat: repeat; /*repete a imagem
+            podemos usar o stretch ao inves do repeat, ele estica ao inves de fatiar a imagem*/
+
+           /* boder-image: url("imagens/borda.png") 27 repeat;versao do codigo reduzida*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+    
+</body>
+</html>

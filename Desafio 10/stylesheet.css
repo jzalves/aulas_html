@@ -44,18 +44,30 @@ a{
 main>h1{
     margin: 0px;
     text-align: left;
+    color: #1a5c38;
+    font-family: "android";
+    
 
 }
 main>h2{
     text-align: left;
+    background-image: linear-gradient(to right,  #3ad07e79, rgba(255, 255, 255, 0.473) );
+    color: #1a5c38;
+    font-family: "android";
+    
+    
+    
 }
 main>p{
     text-align: justify;
 }
+main>p>a{
+    text-decoration: none;
+    color: #299157fa;
+    font-weight: bold;
+}
 iframe{
-    border: 30px solid #1a5c38;
-    
-    
+    border: 30px solid #1a5c38;   
     align-items: center;
     justify-content: center;
     
@@ -77,15 +89,23 @@ main.lista{
     margin-top: 0%;
     background-color: #2fa866;
     border-radius: 20px 20px 0px 0px;
-    text-align: left;
+    text-align: justify;
     color: white;
     font-weight: bold;
     font-size: medium;
+      
+    padding: 15px;
     
+
+}
+.lista>p{
+    text-align: justify;
+    padding: 10px;
 
 }
 .lista{
     background-color: #abc7ab;
+    padding: 15;
     
     border-radius: 20px;
 }
@@ -95,8 +115,12 @@ footer{
     color: #1a5c38;
     padding-bottom: 1px;
     
-    
-
+}
+footer>p{
+    padding-top: 10px;
+}
+strong{
+    color: #2fa866;
 }
 
 

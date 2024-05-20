@@ -25,7 +25,7 @@ nav> a{
 }
 body{
     margin : 0%;
-    background-color: #84e1ad;
+    background-color: #c5ebd6;
     
 
 
@@ -33,9 +33,12 @@ body{
 main{
     background-color: white;
     padding: 15px;
-    margin-left: 28%;
-    margin-right: 28%;
+    max-width: 800px;
+    /*como centralizar uma DIV*/
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 a{
     color: black;
@@ -65,18 +68,22 @@ main>p>a{
     text-decoration: none;
     color: #299157fa;
     font-weight: bold;
+    background-color: #21814c83;
 }
 iframe{
     border: 30px solid #1a5c38;   
     align-items: center;
     justify-content: center;
+    margin: 0%;
+    padding: 0%;
     
     
 }
 .video{
 text-align: center;
-padding: 0%;
-margin: 0%;
+padding: 0px;
+
+max-width: 800px;
 }
 main.lista{
     background-color: white;
@@ -84,7 +91,7 @@ main.lista{
     border-radius: 0%;
 
 }
-.lista>h1{
+aside>h1{
     padding: 15px;
     margin-top: 0%;
     background-color: #2fa866;
@@ -98,12 +105,12 @@ main.lista{
     
 
 }
-.lista>p{
+aside>p{
     text-align: justify;
     padding: 10px;
 
 }
-.lista{
+aside{
     background-color: #abc7ab;
     padding: 15;
     

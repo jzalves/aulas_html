@@ -53,6 +53,18 @@ header>h1{
     
     
 }
+main{
+    background-color: white;
+    padding: 15px;
+    max-width: 800px;
+    min-width: 400;
+    /*como centralizar uma DIV
+    responsividade, defina um tamanho máximo e minimo para atela, e deixe a margem automática*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
 main>article>h1{
     margin: 0px;
     text-align: left;
@@ -101,16 +113,7 @@ nav> a{
 
 }
 
-main{
-    background-color: white;
-    padding: 15px;
-    max-width: 800px;
-    /*como centralizar uma DIV*/
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  
-}
+
 a{
     color: black;
     text-decoration: none,;

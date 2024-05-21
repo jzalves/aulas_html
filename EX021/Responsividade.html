@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            min-width: 280; /*a menor tela do mercado*/
+            margin: auto;
+
+        }
+        img{
+            width: 100%; /*a imagem diminuira junto com a tela para permanecer visivel*/
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum beatae vel non commodi, voluptatum animi dicta dolores quia magnam distinctio facere. Autem officiis hic facere minima iste, libero pariatur a.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, perferendis? Explicabo, et cum inventore tempore aperiam dolorem sint porro asperiores officia reprehenderit deserunt aliquid consectetur optio sunt magnam facere praesentium.</p>
+        <picture>
+            <source media="(max-width: 800px)" srcset="/imagens/irina-blok-pq.jpg">
+
+            <img src="../Desafio 10/imagens/irina-blok.jpg" alt="Irina Block">
+        </picture>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta porro repudiandae quod ullam mollitia non. Magnam nisi, eius quas, quam nulla magni molestias velit pariatur consectetur voluptate rem perspiciatis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque totam neque obcaecati beatae cupiditate adipisci fugit saepe natus fuga temporibus, maiores nobis laboriosam sit, commodi qui accusamus voluptates molestias ipsam.</p>
+    </main>
+    
+</body>
+</html>
+<!--com ajuda da extenção window resizer, vc poderá ver como o seu site ficará em diferentes telas!!!-->

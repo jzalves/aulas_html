@@ -47,11 +47,62 @@ body{
     font-family: var(--font-padrao);
     
 }
-header>h1{
+header{
+    min-height: 150px;
     color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));  
+    padding-top: 40px;
+    font-size: small;
+    padding-bottom: 0%;
+    
+}
+
+header h1{
+   
+    color: white;
+    font-size: 3em;
     font-family: var(--fonte-destaque);
+    text-shadow: 2px 2px 0px black;
+    margin-bottom: 20px;
     
     
+}
+
+header p{
+    color: white;
+    font-size: 1.2em;
+    font-family: var(--font-padrao);
+    max-width: 500px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 1s; /*animaçaõ da transição do hover
+    
+
+}
+nav>a:hover{
+    background-color: var(--cor2);
+    color: var(--cor5);
+    border-radius: 5px;
+}
+
+
+nav{
+    text-align: left;
+    padding: 10px;
+    background-color: #063d1e;
+    font-size: 12px;
+    box-shadow: 0px 7px 7px black;
+
+
 }
 main{
     background-color: white;
@@ -63,9 +114,16 @@ main{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
+    margin-bottom: 50px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
   
 }
-main>article>h1{
+main img{
+    width: 100%;
+}
+main h1{
     margin: 0px;
     text-align: left;
     color: var(--cor5);
@@ -73,7 +131,7 @@ main>article>h1{
     
 
 }
-main>article>h2{
+main h2{
     text-align: left;
     background-image: linear-gradient(to right,  #3ad07e79, rgba(255, 255, 255, 0.473) );
     color: #1a5c38;
@@ -82,36 +140,23 @@ main>article>h2{
     
     
 }
-main>article>p{
+main p{
     text-align: justify;
 }
-main>article>p>a{
+main a{
     text-decoration: none;
     color: #299157fa;
     font-weight: bold;
     background-color: #21814c83;
-}
-header{
-    color: white;
-    text-align: center;
-    background-image: linear-gradient(to bottom,  #3ad07e, #1a5c38 ) ;  
-    padding: 15px;
-    font-size: small;
-    
-}
-
-header>nav>a{   
-    text-align: left;
-    color: var(--cor5);
-}
-nav> a{
-    color: white;
-    text-decoration: none;
-    padding-right: 15px;
-    font-size: 12px;
-
 
 }
+
+main img.pequena{
+    width: 50%;
+    display: block; /*uma imagem por padraonao é um bloco igual aos outros por isso nao centraliza,com esse display ela se torna um bloco*/
+    margin:auto;
+}
+
 
 
 a{
@@ -131,7 +176,8 @@ iframe{
     
 }
 .video{
-text-align: center;
+display: block;
+margin: auto;
 padding: 0px;
 
 max-width: 800px;

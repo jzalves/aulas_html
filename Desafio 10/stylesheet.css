@@ -72,6 +72,7 @@ header h1{
     font-family: var(--fonte-destaque);
     text-shadow: 2px 2px 0px black;
     margin-bottom: 20px;
+    font-weight: normal;
     
     
 }
@@ -87,11 +88,12 @@ header p{
     text-shadow: 2px 2px 0px black;
 }
 nav a{
-    color: white;
+    color: var(--cor1);
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
-    transition-duration: 1s; /*animaçaõ da transição do hover*/
+    transition-duration: 1s; 
+    /*animaçaõ da transição do hover*/
     
 
 }
@@ -108,6 +110,7 @@ nav{
     background-color: #063d1e;
     font-size: 12px;
     box-shadow: 0px 7px 7px black;
+    margin-bottom: 2px;
 
 
 }
@@ -135,6 +138,8 @@ main h1{
     text-align: left;
     color: var(--cor5);
     font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em;
     
 
 }
@@ -145,6 +150,7 @@ main h2{
     font-family: var(--fonte-android);
     font-size: 1.3em;
     text-indent: 8px;
+    font-weight: normal;
     
     
     
@@ -189,28 +195,28 @@ a{
     text-decoration: none,;
 }
 
-
-
-iframe{
-    border: 30px solid #1a5c38;   
-    align-items: center;
-    justify-content: center;
-    margin: 0%;
-    padding: 0%;
-    
-    
-}
-.video{
-display: block;
-margin: auto;
-padding: 0px;
-
-max-width: 800px;
-}
 main.lista{
     background-color: white;
     padding: 15px;
     border-radius: 0%;
+
+}
+div.video{
+    background-color: var(--cor5);
+    padding: 10px;
+    margin: 0px -17px 30px -17px;/*colocando margem negativo, ele ficara em cima de outra box*/
+    position: relative;
+    padding-bottom: 58%;/*tira as bordas pretas do video*/
+
+}
+div.video > iframe{
+    position: absolute; /*com esse posicionamento podemos alterar o top left*/
+    top: 5%;
+    left: 5%;
+
+    /*tamanho do video em relação a div*/
+    width: 90%;
+    height: 90%;
 
 }
 aside{

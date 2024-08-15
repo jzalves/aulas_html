@@ -128,7 +128,7 @@ main{
     margin-bottom: 50px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-  
+
 }
 main img{
     width: 100%;
@@ -140,7 +140,6 @@ main h1{
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
-    
 
 }
 main h2{
